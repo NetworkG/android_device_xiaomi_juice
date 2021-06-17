@@ -28,6 +28,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
+# GBoard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.kb_pad_port_b=1
+
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
