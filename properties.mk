@@ -68,6 +68,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     power.saving.mode=1 \
     pm.sleep_mode=1
 
+# Privapp permissions whitelisting
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
+
 # Scroll optimization
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.perf.scroll_opt=true
