@@ -161,5 +161,6 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon
 
--include $(LOCAL_PATH)/product_prop.mk
--include $(LOCAL_PATH)/system_prop.mk
+# Properties
+-include $(LOCAL_PATH)/properties.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
