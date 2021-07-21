@@ -1,13 +1,15 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) Android Open Source Project
+# Copyright (C) NusantaraROM Project
+# Copyright (C) LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_juice.mk
+    $(LOCAL_DIR)/nad_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_juice-user \
-    dot_juice-userdebug \
-    dot_juice-eng
+    nad_juice-user \
+    nad_juice-userdebug \
+    nad_juice-eng

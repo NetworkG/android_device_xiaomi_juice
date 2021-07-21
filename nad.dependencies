@@ -1,0 +1,15 @@
+[
+    {
+        "remote": "github",
+        "repository": "SYNTX-ID/android_vendor_xiaomi_juice",
+        "target_path": "vendor/xiaomi/juice",
+        "branch": "11"
+    },
+    {
+        "remote": "github",
+        "repository": "SYNTX-ID/android_kernel_xiaomi_juice",
+        "target_path": "kernel/xiaomi/juice",
+        "clone-depth": "1",
+        "branch": "11"
+    }
+]

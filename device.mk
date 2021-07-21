@@ -1,5 +1,7 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) Android Open Source Project
+# Copyright (C) NusantaraROM Project
+# Copyright (C) LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

@@ -1,20 +1,23 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) Android Open Source Project
+# Copyright (C) NusantaraROM Project
+# Copyright (C) LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common Dot stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common NusantaraProject stuff.
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+
+# NusantaraProject stuff
+TARGET_USES_BLUR := true
+NAD_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_juice
+PRODUCT_NAME := nad_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115
