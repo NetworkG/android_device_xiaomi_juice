@@ -103,6 +103,14 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+    CameraGo \
+    DuckDuckGo \
+    AudioREC \
+    ScreenREC \
+    OtoMusic
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.juice \
